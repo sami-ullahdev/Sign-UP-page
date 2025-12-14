@@ -13,7 +13,7 @@
 }
 
 .Signup {
-    width: 500px;
+    width: 350px;
 }
 
 #back {
@@ -47,13 +47,13 @@
     transform: rotate(25deg);
 }
 
-.fullname {
+.fullname , .email , .password{
     border-bottom: 1px solid #727272b6;
     padding: 0 0 10px 0;
 
 }
 
-#fullname {
+#fullname , #email , #password , #re-password{
     border: none;
     outline: none;
     flex: 1;
@@ -62,5 +62,30 @@
     background: transparent;
     margin-top: 30px;
     width: 300px;
+}
 
+.all-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn > div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.submit-btn > button {
+    background-color: #4B5FFE;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 50px;
+}
+
+.submit-btn > button:hover {
+    transform: scale(1.1);
+    transition-duration: 400ms;
+    font-weight: bold;
 }
