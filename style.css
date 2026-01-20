@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #2BC0E4;
+    background: #E6F4F1;
 }
 
 
@@ -23,7 +23,7 @@ body {
     gap: 20px;
     display: flex;
     padding: 20px;
-    background: #ffffff;
+    background: #0F172A;
 }
 
 .Signup {
@@ -64,7 +64,7 @@ body {
 .fullname,
 .email,
 .password {
-    border-bottom: 1px solid #727272b6;
+    border-bottom: 1px solid #94A3B8;
     padding: 0 0 10px 0;
 
 }
@@ -78,7 +78,7 @@ body {
     outline: none;
     flex: 1;
     font-size: 14px;
-    color: #ffffff;
+    color: #0F172A;
     background: transparent;
     margin-top: 30px;
     width: 300px;
@@ -95,7 +95,7 @@ body {
 }
 
 .submit-btn>button {
-    background-color: #4B5FFE;
+    background-color: #0D9488;
     color: white;
     border: none;
     padding: 8px;
